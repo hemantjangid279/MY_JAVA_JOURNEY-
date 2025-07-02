@@ -1,0 +1,16 @@
+
+import java.util.Scanner;
+
+class triangleArea {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("please enter your  base value: ");
+        double base = input.nextDouble();
+        System.out.print("please enter your  hight value: ");
+        double hight = input.nextDouble();
+
+        double total_value = (base * hight) / 2;
+        System.out.println("this is your final triangle area: " + total_value + "cms2 ");
+
+    }
+}
