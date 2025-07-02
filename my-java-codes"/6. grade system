@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+class gradesystem {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("please enter your marks : ");
+        int marks = input.nextInt();
+
+        if (marks >= 90) {
+            System.out.print("you have got A");
+        } else if (marks >= 75) {
+            System.out.print("you have got B");
+        } else if (marks >= 60) {
+            System.out.print("you have got C");
+
+        } else if (marks >= 45) {
+            System.out.print("you have got D");
+        } else {
+            System.out.print("you Fail!!!!");
+        }
+
+    }
+}
