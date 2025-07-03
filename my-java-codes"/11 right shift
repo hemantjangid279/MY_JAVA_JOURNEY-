@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+class rightshift {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("please enter your number : ");
+        int num = input.nextInt();
+
+        int result = num >> 1;
+        System.out.print("this is your right shift : " + result);
+    }
+
+}
